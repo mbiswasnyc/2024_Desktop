@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork_May28;
 
 public class Account {
 
@@ -6,7 +6,7 @@ public class Account {
     private int accnum;  //The account number
 
 
-    public Account(int a)
+    Account(int a)
     {
         bal=0.0;
         accnum=a;

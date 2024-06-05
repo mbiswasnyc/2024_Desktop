@@ -1,9 +1,9 @@
-package HomeWork;
+package HomeWork_May28;
 
-public class CurrentAccount extends Account {
+public class CurrentAccount2 extends Account {
 
 
-    public CurrentAccount(int a) {
+    public CurrentAccount2(int a) {
         super(a);
     }
 
@@ -12,6 +12,6 @@ public class CurrentAccount extends Account {
         if (withdrawAmount>0 && withdrawAmount<=700 && getBalance()-withdrawAmount>100)
             setBalance(getBalance()-withdrawAmount);
         else
-            System.err.println("Withdraw amount exceed the limit... ");
+            System.err.println("Withdraw amount exceeds the limit... ");
     }
 }

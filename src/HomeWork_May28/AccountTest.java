@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork_May28;
 
 public class AccountTest {
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class AccountTest {
         currentAccount.deposit(2500);
         currentAccount.withdraw(700);
         System.out.println(currentAccount.getBalance());
+
     }
-
-
 }

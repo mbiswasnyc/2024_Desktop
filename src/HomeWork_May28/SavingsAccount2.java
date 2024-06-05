@@ -1,8 +1,8 @@
-package HomeWork;
+package HomeWork_May28;
 
-public class SavingsAccount extends Account{
+public class SavingsAccount2 extends Account{
 
-    public SavingsAccount(int a) {
+    public SavingsAccount2(int a) {
         super(a);
     }
 
